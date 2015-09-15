@@ -1,0 +1,35 @@
+.profile-img {
+  border: 3px solid green; }
+
+.panel, .little-panel, .big-panel {
+  border: 3px solid dodgerblue;
+  background: lightgreen;
+  margin: 10px; }
+
+.little-panel {
+  font-size: 12px;
+  padding: 5px; }
+
+.big-panel {
+  font-size: 24px;
+  padding: 20px; }
+
+nav ul {
+  background: #2c3e50;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav li {
+  display: inline-block; }
+nav a {
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 16px;
+  text-decoration: none; }
+nav a:hover {
+  background-color: #16a085; }
+
+p {
+  font-size: 24px; }
+
+/*# sourceMappingURL=main.css.map */

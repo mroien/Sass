@@ -1,0 +1,14 @@
+.panel, .little-panel, .big-panel {
+  border: 3px solid dodgerblue;
+  background: lightgreen;
+  margin: 10px; }
+
+.little-panel {
+  font-size: 12px;
+  padding: 5px; }
+
+.big-panel {
+  font-size: 24px;
+  padding: 20px; }
+
+/*# sourceMappingURL=_panel.css.map */
