@@ -1,0 +1,23 @@
+$button-bg: #16A085;
+$button-color: #ffff;
+$button-padding: 5px;
+
+.button {
+	background: $button-bg;
+	border-radius: 8px;
+	color: $button-color;
+	display: inline-block;
+	padding: $button-padding;
+	text-decoration: none;
+}
+
+.jumbo-button {
+	@extend .button;
+	padding: $button-padding + 30;
+}
+
+// Whenever you multiply by a number greater than 1 it brightens it and less than 1 it darkens it
+.light-button {
+	@extend .button;
+	background: $button-bg * 1.5;
+}

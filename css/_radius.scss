@@ -1,0 +1,16 @@
+//  Long way
+// .border-radius {
+// 	-webkit-border-radius: 5px;
+// 	-moz-border-radius: 5px;
+// 	-ms-border-radius: 5px;
+// 	border-radius: 5px;
+// }
+
+// Mixin way with parameter
+
+@mixin border-radius ($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}

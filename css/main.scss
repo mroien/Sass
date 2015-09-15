@@ -1,11 +1,13 @@
 // You leave the extension and the underscore off when you import Sass know what file to get
 @import "profile";
 @import "panel";
+@import "button";
 
 $bg-color: #2c3e50;
 $hover-color: #16a085;
 $text-color: #ffffff;
 
+// Nesting
 nav {
 	ul {
 		background: $bg-color;
@@ -29,4 +31,8 @@ nav {
 
 p {
 	font-size: 24px;
+}
+
+h4 {
+	text-align: center;
 }

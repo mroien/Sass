@@ -1,3 +1,5 @@
+@import "radius";
+
 $dblue: dodgerblue;
 $lgreen: lightgreen;
 
@@ -11,12 +13,14 @@ $lgreen: lightgreen;
 // @extend grabs all the code from .panel and "copies it" into .little-panel
 .little-panel {
 	@extend .panel;
+	@include border-radius(5px);
 	font-size: 12px;
 	padding: 5px;
 }
 
 .big-panel {
 	@extend .panel;
+	@include border-radius(20px);
 	font-size: 24px;
 	padding: 20px;
 }

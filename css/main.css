@@ -7,12 +7,34 @@
   margin: 10px; }
 
 .little-panel {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
   font-size: 12px;
   padding: 5px; }
 
 .big-panel {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
   font-size: 24px;
   padding: 20px; }
+
+.button, .jumbo-button, .light-button {
+  background: #16A085;
+  border-radius: 8px;
+  color: #ffff;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none; }
+
+.jumbo-button {
+  padding: 35px; }
+
+.light-button {
+  background: #21f0c8; }
 
 nav ul {
   background: #2c3e50;
@@ -31,5 +53,8 @@ nav a:hover {
 
 p {
   font-size: 24px; }
+
+h4 {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
